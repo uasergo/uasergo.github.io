@@ -1,0 +1,277 @@
+.reset-form{
+    font-size: 1.1rem;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border: 3px solid black;
+    width: 200px;
+}
+
+.reset-form:hover{
+    background: #c0c0c0;
+    color: black;
+}
+.reset-form:active{
+    background: maroon;
+}
+
+.reset-cart{
+    font-size: 1.1rem;
+    background: white;
+    padding: 10px 20px;
+    border: 3px solid black;
+    width: 200px;
+}
+
+.reset-cart:hover{
+    background: skyblue;
+}
+.reset-cart:active{
+    background: maroon;
+}
+
+.bordemaroon{
+margin-left: 20%;
+margin-right: 20%;
+min-height: 800px;  
+border-left: 15px double FireBrick;
+border-right: 15px double FireBrick;
+}
+
+.email-field{
+    font-size: 25px;
+}
+
+.send-email{
+    font-size: 1.1rem;
+    background: white;
+    padding: 10px 20px;
+    border: 3px solid black;
+    width: 200px;
+}
+
+.send-email:hover{
+    background: skyblue;
+}
+.send-email:active{
+    background: maroon;
+}
+
+.comment{
+    font-size: 26px;
+    color: darkgoldenrod;
+}
+
+.board .name{
+    margin: 0px;
+    color: maroon;
+    font-size: 23px;
+}
+
+.board .cost{
+    font-size: 23px;
+}
+
+.board .desc{
+    margin: 0px;
+    font-size: 23px;
+}
+
+.to-main{
+    font-size: 1.1rem;
+    background: white;
+    padding: 10px 20px;
+    border: 3px solid black;
+    margin: 10px;
+    width: 130px;
+}
+
+.to-main:hover{
+    background: skyblue;
+}
+.to-main:active{
+    background: maroon;
+}
+
+.board .add-to-cart{
+    font-size: 1.1rem;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border: 3px solid black;
+    margin: 10px;
+    width: 130px;
+}
+
+.board .add-to-cart:hover{
+    background: #c0c0c0;
+    color: black;
+}
+.board .add-to-cart:active{
+    background: maroon;
+}
+
+.to-cart{
+    font-size: 1.1rem;
+    background: coral;
+    color: white;
+    padding: 10px 20px;
+    border: 3px solid darkred;
+    margin: 10px;
+    width: 130px;
+}
+
+.to-cart:hover{
+    background: skyblue;
+}
+.to-cart:active{
+    background: maroon;
+}
+
+
+.board{
+    width: 60%;
+    min-height: 800px;  
+    padding-left:20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-left: 15px double FireBrick;
+    border-right: 15px double FireBrick;
+}
+
+.look {
+    width: 500px;
+    height: auto;
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.desc{
+    font-size: 24px;
+}
+
+
+.tab{
+    width: 100px; 
+    height: 35px; 
+    font-size: 20px; 
+    border: 2px solid black; 
+    background: white;
+    margin-top: 15px;
+}
+
+.tab:hover{
+    background: #c0c0c0;
+}
+
+header{
+    background: LightYellow;
+    font-family: Palatino Linotype;
+    border: 3px double DarkMagenta;
+    text-align: center; 
+    font-size: 54px; 
+    color: DarkMagenta;
+    width: 40%;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 30%;
+}
+
+a{
+    font-size: 17px;
+}
+
+.cart-shape{
+    font-size: 23px;
+    font-weight: bold;
+    border: 5px solid Gray;
+    background: Cornsilk;
+    margin: 7px;
+    padding: 10px;
+    max-width: 250px;
+}
+
+.cart-shape .mini-cart{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+.cart{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+    margin: 30px;
+    margin-left: 70px;
+}
+
+.cart .name{
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.cart .cost{
+    font-size: 1.4rem;
+    margin: 10px 0;
+}
+
+.cart .add-to-cart{
+    font-size: 1.1rem;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+
+.cart .add-to-cart:hover{
+    background: skyblue;
+}
+.cart .add-to-cart:active{
+    background: maroon;
+}
+
+.cart .desc-item{
+    font-size: 1.1rem;
+    background: white;
+    padding: 10px 20px;
+    border: 1px solid black;
+    margin-left: 5px;
+}
+
+.cart .desc-item:hover{
+    background: skyblue;
+}
+.cart .desc-item:active{
+    background: maroon;
+}
+
+
+.goods-out{
+   border-top: 1px solid black;
+   border-bottom: 1px solid black;   
+}
+
+.goods-out::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.main-cart img{
+    width: 48px;
+}
+
+.main-cart{
+    font-size: 25px;
+}
+
+
+
+
+
+
